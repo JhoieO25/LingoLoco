@@ -183,9 +183,9 @@ header .Nav-b{
 }
 
 .head-section .H-details .button:hover, .head-section .H-details .coach {
-	color:#3D405B;
+	color:#FFFFFF;
 	border-color:#3D405B;
-	background:transparent;
+	background:#3D405B;
 }
 
 .head-section .H-details .coach:hover {
@@ -584,3 +584,6 @@ footer.foot.bg-dark{
     }
 }
 
+.footer{
+	background-color:#F4F1DE;
+}
