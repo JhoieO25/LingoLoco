@@ -167,6 +167,12 @@ header .Nav-b{
 	font-size:1.12rem;
 }
 
+.description{
+	text-align: center;
+	font-family: "Sour Gummy", sans-serif;
+	color:#FFFFFF;
+}
+
 .head-section .H-details .buttons{
 	display:flex;
 	gap: 33px;
@@ -220,9 +226,16 @@ header .Nav-b{
 .mini-game{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 	font-family: 'Amethysta';
-	font-size: 22px;
+	box-sizing: border-box;
+}
+
+.wordscrab h2{
+	font-family: 'Amethysta';
+	font-size:25px;
+	font-weight: 500;
+	padding: 18px 25px;
+	border-bottom:1px solid #ccc;
 }
 
 .mini-game{
@@ -598,7 +611,7 @@ header .Nav-b{
 		font-family: 'Aclonica';
 		}
  
-	h2{
+	.join {
 		text-align: center;
 		font-family: "Sour Gummy", sans-serif;
 		
@@ -777,5 +790,4 @@ input[type="checkbox"] {
  
  .btn-primary {
 	 background-color:#3D405B !important;
-	 justify-content:center;
  }
