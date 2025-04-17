@@ -11,7 +11,7 @@ body{
 }
 
 .page1{
-	background-image:url(../IMG/img4.jpeg);
+	background-image:url(../IMG/img4.WEBP);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position:center;
@@ -130,7 +130,7 @@ header .Nav-b{
 
 .head-section .H-Container {
 	display: flex;
-	align-items: top;
+	align-items: flex;
 	margin-top:80px;
 	min-height:100vh;
 	height: 100%;
@@ -151,7 +151,7 @@ header .Nav-b{
 .head-section .H-details .Header {
 	font-size: 2.3rem;
 	color:#ffffff;
-	font-family:;
+	/*font-family:;*/
 }
 
 .head-section .H-details .SubHead {
@@ -441,7 +441,7 @@ footer.foot.bg-dark{
 	height: auto;
 	display:block;
 	z-index:1001;
-	right:50px:
+	right:50px;
 	margin-bottom:0px;
 }
 
