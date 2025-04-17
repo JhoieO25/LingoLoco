@@ -366,9 +366,6 @@ header .Nav-b{
   transform: translateY(-50%);
 }
 
-footer.foot.bg-dark{
-	background-color:#F4F1DE;
-}
 
 /*RESPONSIVE MEDIA QUERY CODE FOR MAX WIDTH 900px*/
 @media screen and (max-width:900px){
@@ -476,7 +473,7 @@ footer.foot.bg-dark{
 	}
 }
 
-.urgent-effect{
+.urgent-effect, .btn-primary{
 	animation:shake 0.4s ease-in-out infinite, glow 1.2s ease-in-out infinite;
 	display:inline-block;
 	padding:2px 8px;
@@ -485,6 +482,11 @@ footer.foot.bg-dark{
 }
 
 .urgent-effect:hover{
+	animation-play-state:paused;
+	transform:scale(1.05);
+}
+
+..btn-primary:hover{
 	animation-play-state:paused;
 	transform:scale(1.05);
 }
@@ -587,3 +589,193 @@ footer.foot.bg-dark{
 .footer{
 	background-color:#F4F1DE;
 }
+
+
+
+/*AUTHOR: ONYINYE A. STYLING BECOME A MEMBER PAGE*/
+.cous {
+		text-align: center;
+		font-family: 'Aclonica';
+		}
+ 
+	h2{
+		text-align: center;
+		font-family: "Sour Gummy", sans-serif;
+		
+		
+		}
+	h3{
+		text-align: center;
+		font-family: "Sour Gummy", sans-serif;
+		
+		
+		}
+.custom-body{
+		
+			background-color:#F4F1DE !important;
+		}
+.p1{margin-top:-10px;
+	word-spacing: 5px;
+	text-indent: 20px;
+	font-family: "Pacifico", cursive;
+	color:#3D4058;
+}
+.p2{margin-top:30px;
+	word-spacing: 5px;
+	text-indent: 20px;
+	font-family: "Pacifico", cursive;
+	font-size:25px;
+	color:#3D4058;
+	text-align: center;
+	margin-bottom: 20px;
+}
+		 .form-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 5rem;
+	gap: 10rem;
+ width:auto;
+	}
+	.form-body{
+	 background: #81B29A;
+    border-radius: 10px;
+      padding:18px;
+	  
+	  gap: 5rem;
+	  border-radius: 45px;
+	}
+
+    input {
+      display: block;
+      width: 90%;
+      padding: 0.7rem;
+      margin: 1rem auto;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+
+    
+
+
+.checkbox-group {
+  display: flex;
+  gap: 5px;
+
+}
+
+.radio-group{
+  display: flex;
+  gap: 5px; 
+  font-size:15px;
+}
+.checkbox-group label,
+.radio-group label {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+  gap: 5px; 
+  max-width: 100%;
+  
+}
+
+
+/* Setting a minimum height for each image container*/
+.image-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 250px; 
+  position: relative;
+}
+
+
+.image-con img {
+  object-fit: cover;
+  height: 100%; 
+  width: 95%; 
+  border-radius: 5%; 
+  transition: transform .2s;
+}
+
+.image-con:hover {
+  transform: scale(1.3);
+ opacity: 1 ; 
+}
+
+
+/* Custom button styles */
+        .button{border: none;
+  color: #F4F1DE;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+       .btn-1{   background-color: #F4F1DE; 
+  color: black; 
+  border:1px solid #81B29A;
+  width:100%;
+  border-radius: 45px;
+} 
+     .btn-1:hover{background-color: #81B29A;
+  color: white;
+}
+ .btn-2{
+	 margin-top:35px;
+	 background-color: #F4F1DE; 
+	color: black; 
+	border:1px solid #81B29A;
+	width:100%;
+	border-radius: 45px;
+ }
+ .btn-2:hover{background-color: #81B29A;
+  color: white;
+}
+        
+
+
+ #lfname,#lemail,#lpswd,#lcpswd,#language{
+	 margin-top:0px;
+	 border-radius: 45px;
+ }
+ #cfname,#cemail,#copswd,#ccpswd,#languages{
+	 margin-top:0px;
+	 border-radius: 45px;
+	 
+ }
+.form-label{
+	
+	margin-bottom:1px;
+	
+
+}
+#inputGroupFile01{
+	height:10px;
+	 border-radius: 75px;
+}
+.classinput-group-text{
+	height:5px;
+}
+input[type="checkbox"] {
+  transform: scale(0.6); 
+}
+  input[type="radio"] {
+  transform: scale(0.7); 
+}
+  
+  
+  .card-img-top{
+  height: 200px;
+  object-fit: cover;
+  }
+ 
+ .btn-primary {
+	 background-color:#3D405B !important;
+	 justify-content:center;
+ }
