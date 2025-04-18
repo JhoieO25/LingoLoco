@@ -177,7 +177,7 @@ console.log(coachbutton);
 		}
 	}
 
-	// Building alert messages
+	// Building alert messages.
 	if (!coachNchecker) {
 		coachAlertMessage += "Name invalid.\n";
 	}
